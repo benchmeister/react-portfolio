@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Nav from "./nav/Nav.js";
+import About from "./about/About"
+import Skills from "./skills/Skills"
+import Projects from "./projects/Projects"
+import Contact from "./contact/Contact"
+import "./styles/app.css"
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router> 
+      <Nav />
+      <Routes> // this is how to create new pages in React JS
+        <Route path="/" element={About} /> // link to about page
+        <Route path="/skills" element={Skills} /> // link to skills page
+        <Route path="/projects" element={Projects} /> // link to projects page
+        <Route path="/contact" element={Contact} /> // link to contact page
+      </Routes>
+    </Router>
   );
 }
 
