@@ -1,67 +1,67 @@
 const skills = {
     1: [
       {
-        title: "HTML",
-        level: 6,
-      },
-      {
-        title: "CSS",
+        title: "Host Discovery",
         level: 5,
       },
       {
-        title: "SASS",
-        level: 2,
-      },
-      {
-        title: "JavaScript",
+        title: "Port Scanning",
         level: 5,
       },
       {
-        title: "TypeScript",
+        title: "Exploits",
         level: 4,
       },
       {
-        title: "Tailwind CSS",
-        level: 1,
-      },
-      {
-        title: "React JS",
+        title: "Obtaining Shell",
         level: 3,
       },
       {
-        title: "Figma",
-        level: 4,
+        title: "Exfiltration",
+        level: 2,
+      },
+      {
+        title: "Priv Escalation",
+        level: 3,
+      },
+      {
+        title: "Post Exploit",
+        level: 2,
+      },
+      {
+        title: "Pivoting",
+        level: 2,
       },
     ],
     2: [
       {
-        title: "PostgreSQL",
-        level: 5,
-      },
-      {
-        title: "Node.js",
-        level: 4,
-      },
-      {
-        title: "MongoDB",
+        title: "Windows",
         level: 2,
       },
       {
-        title: "Git",
-        level: 4,
+        title: "Linux",
+        level: 5,
       },
       {
-        title: "PHP",
+        title: "AWS",
         level: 1,
       },
-      {
-        title: "SQL",
-        level: 3,
-      },
-      {
-        title: "Express.js",
-        level: 3,
-      },
+      // {
+      //   title: "",
+      //   level: 4,
+      // },
+      // {
+      //   title: "",
+      //   level: 1,
+      // },
+      // {
+      //   title: "",
+      //   level: 3,
+      // },
+      // {
+      //   title: "",
+      //   level: 3,
+      // },
     ],
   };
   

@@ -31,7 +31,7 @@ h2 {
     left: 0;
     background-color: white;
     height: 0.2rem;
-    width: 2.75rem; /* to change length of level bar */
+    width: 8.75rem; /* to change length of level bar */
 }
 
 #playerStats__lines__thin {
